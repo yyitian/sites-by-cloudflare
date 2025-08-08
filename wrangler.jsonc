@@ -1,0 +1,16 @@
+{
+  "compatibility_date": "2025-04-01",
+  "main": "src/index.ts",
+  "name": "sites-by-cloudflare",
+  "upload_source_maps": true,
+  "observability": {
+    "enabled": true
+  },
+  "d1_databases": [
+    {
+      "binding": "DB",
+      "database_name": "sites-cloudflare-db",
+      "database_id": "a2ab5f76-2080-4e33-a350-35a22b7beb70"
+    }
+  ]
+}
